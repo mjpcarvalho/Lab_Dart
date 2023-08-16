@@ -1,7 +1,7 @@
 main() {
   // String
 
-  String nome_usuario = "João";
+  String nome_usuario = 'João';
   String sobrenome_usuario = 'Carvalho';
   print(nome_usuario); // João
   print(sobrenome_usuario); // Carvalho
