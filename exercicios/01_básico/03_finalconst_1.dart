@@ -1,6 +1,7 @@
 main() {
 // 03-03
 // Diferença entre variáveis normais e variáveis constantes
+// Const e Final
 
   var a = 10;
   final b = 10;
@@ -17,7 +18,8 @@ main() {
   // Lista que pode ser modificada
   final pesoasFinal = ["João", "Pedro", "Mário"];
 
-  // Lista que não pode ser modificada (se tentarmos adicionar um nome à lista, esra retornará um erro)
+  // Lista que não pode ser modificada
+  // (se tentarmos adicionar um nome à lista, esra retornará um erro)
   const pesoasConst = ["João", "Pedro", "Mário"];
 
   pesoasFinal.add("Maria");
